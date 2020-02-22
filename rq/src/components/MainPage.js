@@ -4,8 +4,8 @@ class MainPage extends Component {
   state = {};
   render() {
     return (
-      <div id="banner">
-        <div className="wrapper">
+      <div id="">
+        <div className="">
           <div className="split-left">
             <img
               className="banner-image"
