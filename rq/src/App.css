@@ -166,3 +166,7 @@ body {
 .scrollerSplitBanner {
   fill: white;
 }
+
+.mySlides {
+  width: 300px;
+}
