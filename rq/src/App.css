@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.content {
+  margin: 5rem;
+  background-color: aqua;
+  position: absolute;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -46,21 +51,23 @@ body {
 }
 
 #topNav {
-  background-color: yellow;
+  background-color: orange;
   height: 3.5rem;
-  position: fixed;
+  position: sticky;
   width: 100%;
   margin-top: 0px;
   text-align: center;
 }
 
 .menuLink {
+  position: relative;
   text-decoration: none;
   font-size: 1.8rem;
-  margin-top: 500px;
-  padding: 2rem;
+  margin-top: 10% !important;
+  padding: 1rem;
   padding-top: 33% !important;
   color: purple;
+  background-color: #61dafb;
 }
 
 #banner {
@@ -166,7 +173,29 @@ body {
 .scrollerSplitBanner {
   fill: white;
 }
+.carousel {
+  max-width: 100%;
+  background-color: green;
+  position: relative;
+}
+.movingElements {
+  position: relative;
+  background-color: yellow;
+  margin: 0% 10% 10% 10%;
+}
 
-.mySlides {
-  width: 300px;
+.propertySlide {
+  position: relative;
+  background-color: red !important;
+  width: 23%;
+  float: left;
+  display: inline !important;
+}
+.margin-2 {
+  margin-left: 2%;
+}
+#searchCompareBook {
+  display: inline-block;
+  position: relative;
+  background-color: blue;
 }

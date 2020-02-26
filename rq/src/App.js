@@ -14,9 +14,10 @@ class App extends Component {
         <Navbar />
         {/* <MainPage /> */}
         <Header />
-
-        <Carousel />
-        <Info />
+        <div className="content">
+          <Carousel />
+          <Info />
+        </div>
       </div>
     );
   }

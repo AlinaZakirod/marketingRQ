@@ -9,21 +9,33 @@ class Carousel extends Component {
   }
   render() {
     return (
-      <div>
-        <p>Carousel</p>
-        <p>Features properties</p>
-        <img
-          className="mySlides"
-          src="../../images/amoon-ra-laY6t1sagU8-unsplash.jpg"
-        />
-        <img
-          className="mySlides"
-          src="../../images/anmol-seth-hDbCjHNdF48-unsplash.jpg"
-        />
-        <img
-          className="mySlides"
-          src="../../images/apartment-architecture-cabinets-chairs-533157.jpg"
-        />
+      <div className="carousel">
+        <h2>Features properties</h2>
+        <div class="movingElements">
+          <div className="propertySlide">
+            <img src=" " />
+            <h3>Property name 1</h3>
+            <p>Address 1</p>
+          </div>
+
+          <div className="propertySlide margin-2">
+            <img src=" " />
+            <h3>Property name 2</h3>
+            <p>Address 2</p>
+          </div>
+
+          <div className="propertySlide  margin-2">
+            <img src=" " />
+            <h3>Property name 1</h3>
+            <p>Address 1</p>
+          </div>
+
+          <div className="propertySlide  margin-2">
+            <img src=" " />
+            <h3>Property name 1</h3>
+            <p>Address 1</p>
+          </div>
+        </div>
       </div>
     );
   }

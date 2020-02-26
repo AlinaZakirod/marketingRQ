@@ -2,7 +2,7 @@ import React from "react";
 
 const info = () => {
   return (
-    <div>
+    <div id="searchCompareBook">
       <h1 className="App-title">How it Works?</h1>
       <h3>Scroll horizontal</h3>
       <p>
@@ -13,9 +13,9 @@ const info = () => {
         same time ReloQuest significantly reduces the cost to the client.The
         universal ReloQuest platform integrates Clients, Suppliers, and Guests
         throughout the process of their accommodation.
-        <section>Search</section>
-        <section>Compare</section>
-        <section>Book</section>
+        <section className="sectionHorizontal">Search</section>
+        <section className="sectionHorizontal">Compare</section>
+        <section className="sectionHorizontal">Book</section>
       </p>
     </div>
   );
