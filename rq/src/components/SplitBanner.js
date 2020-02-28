@@ -1,25 +1,25 @@
 import React, { Component } from "react";
 
-class MainPage extends Component {
+class scrollerSplitBanner extends Component {
   state = {};
   render() {
     return (
-      <div id="">
+      <div id="splitBanner">
         <div className="">
           <div className="split-left">
-            <img
+            {/* <img
               className="banner-image"
               src="https://farm2.staticflickr.com/1638/26145024230_06acd55d1b_b.jpg"
               draggable="false"
-            />
+            /> */}
           </div>
 
           <div classname="split-right">
-            <img
+            {/* <img
               className="banner-image"
               src="https://farm2.staticflickr.com/1663/25814974803_d4c55ff708_b.jpg"
               draggable="false"
-            />
+            /> */}
           </div>
           <div class="scroller">
             <svg
@@ -45,4 +45,4 @@ class MainPage extends Component {
   }
 }
 
-export default MainPage;
+export default scrollerSplitBanner;

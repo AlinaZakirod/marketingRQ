@@ -10,31 +10,16 @@ class Carousel extends Component {
   render() {
     return (
       <div className="carousel">
-        <h2>Features properties</h2>
+        <h2 className="App-title">Features properties</h2>
         <div class="movingElements">
-          <div className="propertySlide">
-            <img src=" " />
-            <h3>Property name 1</h3>
-            <p>Address 1</p>
+          <div className="featuredProperty">
+            Property name <p>Adress line</p>
+            <img />
           </div>
-
-          <div className="propertySlide margin-2">
-            <img src=" " />
-            <h3>Property name 2</h3>
-            <p>Address 2</p>
+          <div className="featuredProperty" id="middle">
+            blah
           </div>
-
-          <div className="propertySlide  margin-2">
-            <img src=" " />
-            <h3>Property name 1</h3>
-            <p>Address 1</p>
-          </div>
-
-          <div className="propertySlide  margin-2">
-            <img src=" " />
-            <h3>Property name 1</h3>
-            <p>Address 1</p>
-          </div>
+          <div className="featuredProperty">blah</div>
         </div>
       </div>
     );
