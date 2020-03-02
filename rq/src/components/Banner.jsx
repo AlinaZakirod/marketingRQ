@@ -5,9 +5,14 @@ class Banner extends Component {
   render() {
     return (
       <div className="banner">
-        <div>
-          <h2>Search + Compare + Book</h2>
-          <p> usgckahjewrkvjherbkvrhgtwuihdvhewtihbfdjkbnvlka;flktebo;jrtbij</p>
+        <div id="bannerText">
+          <h1 className="">Search + Compare + Book</h1>
+          <h3>
+            {" "}
+            usgckahjewrkvjherbkvrhgtwuihdvhewtihbfdjkbnvlka;flktebo;jrtbij
+          </h3>
+          <div className="spit-left"></div>
+          <div className="split-right"></div>
           <img />
         </div>
       </div>
